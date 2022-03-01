@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 import NosFonds from "./pages/NosFonds";
 import ResponsabilitéSocial from "./pages/ResponsabilitéSocial";
+import Esprit from "./pages/Esprit";
 
 function App() {
   return (
@@ -11,6 +12,8 @@ function App() {
       <Route path="/" element={<Home />} />
       <Route path="contact" element={<Contact />} />
       <Route path="nosfonds" element={<NosFonds />} />
+
+      <Route path="esprit" element={<Esprit />} />
       <Route path="respSocial" element={<ResponsabilitéSocial />} />
     </Routes>
   );

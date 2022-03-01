@@ -1,5 +1,5 @@
 import React from "react";
-import Odds from "../components/odds";
+import Odd from "../components/odd";
 import bank from "../images/bank.png";
 import bank2 from "../images/bank2.jpg";
 import "./Res.css";
@@ -19,12 +19,12 @@ const ResponsabilitéSocial = () => {
             </p>
           </div>
 
-          <img src={bank} alt="loading" width="300px" className="img--" />
+          <img src={bank} alt="loading" width="422px" className="img--" />
         </div>
       </section>
       <section className="Pol-in">
         <div className="img-desc">
-          <img src={bank2} alt="loading" width="500px" className="img--" />
+          <img src={bank2} alt="loading" width="679px" className="img--" />
           <div className="desc--">
             <h1 className="title-1"> Pour nos participations </h1>
             <p>
@@ -43,10 +43,15 @@ const ResponsabilitéSocial = () => {
           </div>
         </div>
       </section>
-      <section>
-        <h1 className="title-1"> Contribution ODD </h1>
+      <section className="odd--">
+        <h1 className="title-1" style={{textAlign:"center"}}> Contribution ODD </h1>
         <div>
-          <Odds />
+          <p>
+            La STB SICAR contribue aux objectifs de développement durable
+            proportionnellement aux moyens dont elle dispose. Au regard de ses
+            activités, elle contribue principalement aux 7 ODD suivants 
+          </p>
+          <Odd />
         </div>
       </section>
     </div>
